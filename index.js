@@ -121,6 +121,7 @@ function Exercise1(){
 }
 //Answer// => [ 9, 6, 7, 5, 2, 4, 3, 1, 8 ]
 
+
 /**
 Exercise 2
 @description  Return an Array with Clients 'name' ordered from highest to lowest
@@ -195,6 +196,7 @@ function Exercise4(){
 }
 //Answer// => [ 132850, 122869, 109763, 79069, 60421, 52245, 42217, 41915, 39658, 31879 ]
 
+
 /**
 Exercise 5
 @description  Return an Array with the 'id' of the Banks from lowest to highest by the
@@ -205,6 +207,7 @@ function Exercise5(){
 }
 //Answer// => [ 1, 2, 3, 4 ]
 
+
 /**
 Exercise 6
 @description  Return an Object in which Keys are the name of the Banks
@@ -214,6 +217,7 @@ function Exercise6(){
   //TODO:
 }
 //Answer// => { SCOTIABANK: 0, BCI: 1, ITAU: 0, CONDELL: 0 }
+
 
 /**
 Exercise 7
@@ -227,20 +231,20 @@ function Exercise7(){
 
 
 /**
-Output stage, Do not modify
+Output stage, Do not modify.
 
 You must run this exercise in Nodejs and check if your code is outputing the right results
 
 @section CONSOLE LOG
 */
 
-console.log("Exercise 0 --> ", Exercise0());
-console.log("Exercise 1 --> ", Exercise1());
-console.log("Exercise 2 --> ", Exercise2());
-console.log("Exercise 3 --> ", Exercise3());
-console.log("Exercise 4 --> ", Exercise4());
-console.log("Exercise 5 --> ", Exercise5());
-console.log("Exercise 6 --> ", Exercise6());
-console.log("Exercise 7 --> ", Exercise7());
+console.log("Exercise 0 --> ", Exercise0() || "Not yet answered");
+console.log("Exercise 1 --> ", Exercise1() || "Not yet answered");
+console.log("Exercise 2 --> ", Exercise2() || "Not yet answered");
+console.log("Exercise 3 --> ", Exercise3() || "Not yet answered");
+console.log("Exercise 4 --> ", Exercise4() || "Not yet answered");
+console.log("Exercise 5 --> ", Exercise5() || "Not yet answered");
+console.log("Exercise 6 --> ", Exercise6() || "Not yet answered");
+console.log("Exercise 7 --> ", Exercise7() || "Not yet answered");
 
 process.exit();
